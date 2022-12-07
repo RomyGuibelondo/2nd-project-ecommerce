@@ -1,0 +1,41 @@
+:where(.off-canvas, header) li > p{
+    display: flex;
+    position: relative;
+    line-height: inherit;
+    transition: var(--trans-color);
+    cursor: pointer;
+}
+.header-top .wrapper {
+    font-size: var(--font-small);
+    font-weight: var(--fw4);
+    justify-content: space-between;
+    line-height: 42px;
+}
+.header-top .wrapper ul{
+    gap: 2em;
+}
+.header-top li{
+    position: relative;
+    
+}
+.header-top ul ul{
+    position: absolute;
+    left: -1em;
+    line-height: 2em;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    z-index: 1;
+    display: inline-table;
+    display: none;
+    
+}
+:where(.header-top, .thetop-nav) .right ul ul li p {
+    padding: 0.25em 1em;
+}
+:where(.header-top, .thetop-nav) .right ul ul li.current p {
+    background-color: var(--border-color);
+}
+.header-top li:hover ul{
+    display: block;
+    display: inline-table;
+}

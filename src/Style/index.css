@@ -1,17 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:wght@200;300;400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&family=Source+Serif+Pro:wght@200;300;400;700&display=swap');
 @import url(./reusableSelector.css);
-@import url(./responsive.css);
 @import url(./HeaderStyle/header.css);
+@import url(./responsive.css);
 @import url(./HeaderStyle/headerMain.css);
 @import url(./HeaderStyle/headerSearch.css);
-@import url(./responsive.css);
+@import url(./HeaderStyle/headerResponsive.css);
+@import url(./HeaderStyle/headerNav.css);
+@import url(./HeaderStyle/HeaderTop.css);
+
 @import url(./MainStyle/MainSlider.css);
 @import url(./MainStyle/brands.css);
 @import url(./MainStyle/ProductBlock.css);
 @import url(./MainStyle/productGlobal.css);
-@import url(./MainStyle/productBig.css);
 @import url(./MainStyle/miniProduct.css);
+@import url(./MainStyle/productBig.css);
 
 :root {
   --primary-color: #21a558;

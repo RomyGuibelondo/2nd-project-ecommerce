@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import HeaderTop from './Header/HeaderTop';
+import HeaderNav from './Header/HeaderNav';
 
 
-function header() {
+function Header() {
   return (
-    <div>header</div>
+    <header>
+      <HeaderTop />
+      <HeaderNav />
+    </header>
   )
 }
 
-export default header
+export default Header

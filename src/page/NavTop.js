@@ -1,4 +1,6 @@
 import React from 'react'
+import '../Style/HeaderStyle/headerResponsive.css'
+
 
 
 function NavTop() {
@@ -7,9 +9,13 @@ function NavTop() {
         <div className="off-canvas">
             <div className="canvas-head flexitem">
                 <div className="log">
-                    <a><span className='circle'></span>GTV.Store</a>
+                    <p>
+                      <span className='circle'></span>GTV.Store
+                    </p>
                 </div>
-                <a className='t-close flexcenter'><i className="ri-close-line"></i></a>
+                <p className='t-close flexcenter'>
+                  <i className="ri-close-line"></i>
+                </p>
             </div>
             <div className="departments"></div>
             <nav></nav>
